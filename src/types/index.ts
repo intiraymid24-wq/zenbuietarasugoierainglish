@@ -2,6 +2,7 @@
 // 問題データの型
 // ============================================================
 export type Level = 'beginner' | 'intermediate' | 'advanced';
+
 export type Category =
   | 'daily'
   | 'business'
@@ -9,16 +10,36 @@ export type Category =
   | 'self-introduction'
   | 'emotions'
   | 'shopping'
-  | 'health';
+  | 'health'
+  | 'toeic';
+
+export type ToeicSubCategory =
+  | 'meeting'
+  | 'reservation'
+  | 'delivery'
+  | 'office'
+  | 'transport'
+  | 'email'
+  | 'hiring'
+  | 'invoice'
+  | 'product'
+  | 'announcement';
 
 export interface Question {
   id: string;
   promptJapanese: string;
-  modelAnswers: string[];    // 複数の模範解答（表現のバリエーション）
+  modelAnswers: string[];
   category: Category;
   level: Level;
-  grammarPoint: string;      // 重点文法項目（例: "現在完了"）
-  scene: string;             // 使用シーン（例: "職場での会話"）
+  grammarPoint: string;
+  scene: string;
+  // TOEIC サブカテゴリ（toeicカテゴリのみ）
+  subCategory?: ToeicSubCategory;
+  // 解説フィールド（将来の全問対応を見越して optional）
+  keyPhrase?: string;        // 重要構文・キーフレーズ
+  explanation?: string;      // 文法の詳しい解説
+  commonMistake?: string;    // 日本人が間違えやすい点
+  exampleSentence?: string;  // 追加例文
 }
 
 // ============================================================
@@ -30,13 +51,15 @@ export interface StudyRecord {
   questionId: string;
   userAnswer: string;
   selfRating: SelfRating;
-  studiedAt: string;         // ISO 8601 形式
-  // --- 将来拡張フィールド ---
-  aiFeedback?: string;       // AI による採点・フィードバック
-  speechTranscript?: string; // 音声入力の文字起こし
-  responseTime?: number;     // 回答までの秒数
-  reviewCount: number;       // この問題を何回復習したか
-  lastReviewedAt?: string;   // 最後に復習した日時
+  studiedAt: string;
+  reviewCount: number;
+  lastReviewedAt?: string;
+  // タイム関連
+  timeTaken?: number;          // 回答までの秒数
+  answeredInTime?: boolean;    // 目安時間内に回答できたか
+  // 将来拡張フィールド
+  aiFeedback?: string;
+  speechTranscript?: string;
 }
 
 // ============================================================
@@ -57,21 +80,21 @@ export interface StudySession {
 // アプリ設定の型
 // ============================================================
 export interface AppSettings {
-  dailyGoal: number;         // 1日の目標問題数
-  showRomaji: boolean;       // ローマ字表示
-  autoReveal: boolean;       // 自動で答えを表示
-  soundEnabled: boolean;     // 効果音（将来用）
+  dailyGoal: number;
+  showRomaji: boolean;
+  autoReveal: boolean;
+  soundEnabled: boolean;
   theme: 'light' | 'dark';
 }
 
 // ============================================================
-// localStorageに保存するデータ全体の型
+// localStorage に保存するデータ全体
 // ============================================================
 export interface StorageData {
   studyRecords: StudyRecord[];
   sessions: StudySession[];
   settings: AppSettings;
-  reviewList: string[];      // 復習リストに入っている問題ID
+  reviewList: string[];
 }
 
 // ============================================================
@@ -79,8 +102,14 @@ export interface StorageData {
 // ============================================================
 export interface CategoryMeta {
   id: Category;
-  label: string;             // 日本語ラベル
-  icon: string;              // 絵文字アイコン
+  label: string;
+  icon: string;
   description: string;
-  color: string;             // Tailwind bg クラス
+  color: string;
+}
+
+export interface ToeicSubCategoryMeta {
+  id: ToeicSubCategory;
+  label: string;
+  icon: string;
 }

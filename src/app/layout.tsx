@@ -3,8 +3,8 @@ import './globals.css';
 import BottomNav from '@/components/layout/BottomNav';
 
 export const metadata: Metadata = {
-  title: '瞬間英作文トレーニング',
-  description: '毎日の英作文練習で英語力を伸ばす学習アプリ',
+  title: '瞬作 — 10秒で差をつけろ！',
+  description: '瞬間英作文トレーニングアプリ「瞬作」。10秒で英文を作る反射力を鍛えよう。',
 };
 
 export const viewport: Viewport = {

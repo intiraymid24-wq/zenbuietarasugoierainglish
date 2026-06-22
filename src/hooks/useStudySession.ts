@@ -10,9 +10,9 @@ interface UseStudySessionProps {
 
 export function useStudySession({ questions }: UseStudySessionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [userAnswer, setUserAnswer] = useState('');
-  const [completed, setCompleted] = useState(false);
+  const [showAnswer, setShowAnswer]     = useState(false);
+  const [userAnswer, setUserAnswer]     = useState('');
+  const [completed, setCompleted]       = useState(false);
   const [sessionResults, setSessionResults] = useState<StudyRecord[]>([]);
 
   const currentQuestion = questions[currentIndex] ?? null;
@@ -24,8 +24,9 @@ export function useStudySession({ questions }: UseStudySessionProps) {
     setShowAnswer(true);
   }, []);
 
+  // timeTaken・answeredInTime を外から渡す
   const handleRate = useCallback(
-    (rating: SelfRating) => {
+    (rating: SelfRating, timeTaken?: number, answeredInTime?: boolean) => {
       if (!currentQuestion) return;
 
       const data = loadData();
@@ -34,17 +35,18 @@ export function useStudySession({ questions }: UseStudySessionProps) {
       );
 
       const record: StudyRecord = {
-        questionId: currentQuestion.id,
+        questionId:     currentQuestion.id,
         userAnswer,
-        selfRating: rating,
-        studiedAt: new Date().toISOString(),
-        reviewCount: (existing?.reviewCount ?? 0) + 1,
+        selfRating:     rating,
+        studiedAt:      new Date().toISOString(),
+        reviewCount:    (existing?.reviewCount ?? 0) + 1,
         lastReviewedAt: new Date().toISOString(),
+        timeTaken,
+        answeredInTime,
       };
 
       addStudyRecord(record);
 
-      // 復習リストの管理
       if (rating === 'bad' || rating === 'okay') {
         addToReviewList(currentQuestion.id);
       } else {
@@ -53,7 +55,6 @@ export function useStudySession({ questions }: UseStudySessionProps) {
 
       setSessionResults((prev) => [...prev, record]);
 
-      // 次の問題へ
       if (currentIndex + 1 >= questions.length) {
         setCompleted(true);
       } else {

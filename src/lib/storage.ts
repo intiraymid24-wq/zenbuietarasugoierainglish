@@ -1,5 +1,5 @@
-import { StorageData, StudyRecord, StudySession, AppSettings } from '@/types';
-import { DEFAULT_SETTINGS, STORAGE_KEY } from './constants';
+import { StorageData, StudyRecord, StudySession, AppSettings, Question } from '@/types';
+import { DEFAULT_SETTINGS, STORAGE_KEY, CUSTOM_QUESTIONS_KEY } from './constants';
 
 function getDefaultData(): StorageData {
   return {
@@ -80,6 +80,26 @@ export function getTodayCount(): number {
   return data.studyRecords.filter(
     (r) => new Date(r.studiedAt).toDateString() === today
   ).length;
+}
+
+// ユーザーが自分で追加した問題を取得
+export function getCustomQuestions(): Question[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const raw = localStorage.getItem(CUSTOM_QUESTIONS_KEY);
+    if (!raw) return [];
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+// ユーザーが自分で追加した問題を保存
+export function saveCustomQuestion(question: Question): void {
+  if (typeof window === 'undefined') return;
+  const questions = getCustomQuestions();
+  questions.push(question);
+  localStorage.setItem(CUSTOM_QUESTIONS_KEY, JSON.stringify(questions));
 }
 
 // 連続学習日数を返す

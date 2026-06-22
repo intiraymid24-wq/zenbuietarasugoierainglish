@@ -1,362 +1,113 @@
 [
-  {
-    "id": "daily-001",
-    "promptJapanese": "今日は天気がいいですね。",
-    "modelAnswers": ["The weather is nice today, isn't it?", "It's a beautiful day today."],
-    "category": "daily",
-    "level": "beginner",
-    "grammarPoint": "付加疑問文",
-    "scene": "日常の挨拶"
-  },
-  {
-    "id": "daily-002",
-    "promptJapanese": "お腹が空きました。",
-    "modelAnswers": ["I'm hungry.", "I'm starving."],
-    "category": "daily",
-    "level": "beginner",
-    "grammarPoint": "形容詞の使い方",
-    "scene": "日常会話"
-  },
-  {
-    "id": "daily-003",
-    "promptJapanese": "この映画はとても面白かったです。",
-    "modelAnswers": ["This movie was very interesting.", "I really enjoyed this movie."],
-    "category": "daily",
-    "level": "beginner",
-    "grammarPoint": "過去形",
-    "scene": "友人との会話"
-  },
-  {
-    "id": "daily-004",
-    "promptJapanese": "昨日、友達と公園を散歩しました。",
-    "modelAnswers": ["I took a walk in the park with my friend yesterday.", "Yesterday, I went for a walk in the park with a friend."],
-    "category": "daily",
-    "level": "beginner",
-    "grammarPoint": "過去形・前置詞",
-    "scene": "日常会話"
-  },
-  {
-    "id": "daily-005",
-    "promptJapanese": "もう少しゆっくり話してもらえますか？",
-    "modelAnswers": ["Could you speak a little more slowly, please?", "Can you slow down a bit?"],
-    "category": "daily",
-    "level": "beginner",
-    "grammarPoint": "依頼の表現",
-    "scene": "コミュニケーション"
-  },
-  {
-    "id": "daily-006",
-    "promptJapanese": "週末は何をする予定ですか？",
-    "modelAnswers": ["What are you going to do this weekend?", "What are your plans for the weekend?"],
-    "category": "daily",
-    "level": "beginner",
-    "grammarPoint": "未来形 (be going to)",
-    "scene": "友人との会話"
-  },
-  {
-    "id": "daily-007",
-    "promptJapanese": "彼女はその知らせを聞いて、泣いてしまいました。",
-    "modelAnswers": ["She burst into tears when she heard the news.", "She cried when she heard the news."],
-    "category": "daily",
-    "level": "intermediate",
-    "grammarPoint": "接続詞 when",
-    "scene": "日常会話"
-  },
-  {
-    "id": "daily-008",
-    "promptJapanese": "東京に住んで10年になります。",
-    "modelAnswers": ["I have been living in Tokyo for ten years.", "It's been ten years since I moved to Tokyo."],
-    "category": "daily",
-    "level": "intermediate",
-    "grammarPoint": "現在完了進行形",
-    "scene": "自己紹介"
-  },
-  {
-    "id": "business-001",
-    "promptJapanese": "会議は3時に始まります。",
-    "modelAnswers": ["The meeting starts at 3 o'clock.", "The meeting is scheduled for 3 PM."],
-    "category": "business",
-    "level": "beginner",
-    "grammarPoint": "現在形（予定表現）",
-    "scene": "職場"
-  },
-  {
-    "id": "business-002",
-    "promptJapanese": "資料を送っていただけますか？",
-    "modelAnswers": ["Could you send me the documents?", "Would you be able to send me the materials?"],
-    "category": "business",
-    "level": "beginner",
-    "grammarPoint": "丁寧な依頼 (Could you...?)",
-    "scene": "メール・職場"
-  },
-  {
-    "id": "business-003",
-    "promptJapanese": "明日の午後なら空いています。",
-    "modelAnswers": ["I'm available tomorrow afternoon.", "Tomorrow afternoon works for me."],
-    "category": "business",
-    "level": "beginner",
-    "grammarPoint": "現在形・形容詞",
-    "scene": "スケジュール調整"
-  },
-  {
-    "id": "business-004",
-    "promptJapanese": "この件についてご検討いただけますか？",
-    "modelAnswers": ["Could you please consider this matter?", "Would you mind looking into this issue?"],
-    "category": "business",
-    "level": "intermediate",
-    "grammarPoint": "丁寧な依頼・ビジネス表現",
-    "scene": "ビジネスメール"
-  },
-  {
-    "id": "business-005",
-    "promptJapanese": "締め切りを来週に延ばしてもいいですか？",
-    "modelAnswers": ["Could we push the deadline back to next week?", "Is it possible to extend the deadline to next week?"],
-    "category": "business",
-    "level": "intermediate",
-    "grammarPoint": "許可を求める表現",
-    "scene": "プロジェクト管理"
-  },
-  {
-    "id": "business-006",
-    "promptJapanese": "ご不便をおかけして申し訳ありません。",
-    "modelAnswers": ["I'm sorry for the inconvenience.", "We apologize for any inconvenience caused."],
-    "category": "business",
-    "level": "intermediate",
-    "grammarPoint": "謝罪の表現",
-    "scene": "クライアント対応"
-  },
-  {
-    "id": "business-007",
-    "promptJapanese": "そのプロジェクトは予算内で完了させる必要があります。",
-    "modelAnswers": ["We need to complete the project within budget.", "The project must be finished within the budget."],
-    "category": "business",
-    "level": "intermediate",
-    "grammarPoint": "義務・必要性の表現 (need to / must)",
-    "scene": "プロジェクト管理"
-  },
-  {
-    "id": "business-008",
-    "promptJapanese": "先ほどのご説明をもう少し詳しくお聞かせいただけますか？",
-    "modelAnswers": ["Could you elaborate a bit more on what you just explained?", "Would you mind giving us more details on your earlier explanation?"],
-    "category": "business",
-    "level": "advanced",
-    "grammarPoint": "丁寧な確認の表現",
-    "scene": "会議・プレゼン"
-  },
-  {
-    "id": "travel-001",
-    "promptJapanese": "駅はどこですか？",
-    "modelAnswers": ["Where is the station?", "Could you tell me where the station is?"],
-    "category": "travel",
-    "level": "beginner",
-    "grammarPoint": "疑問詞 where",
-    "scene": "道案内"
-  },
-  {
-    "id": "travel-002",
-    "promptJapanese": "チェックインをお願いします。",
-    "modelAnswers": ["I'd like to check in, please.", "I have a reservation. I'd like to check in."],
-    "category": "travel",
-    "level": "beginner",
-    "grammarPoint": "丁寧な依頼",
-    "scene": "ホテル"
-  },
-  {
-    "id": "travel-003",
-    "promptJapanese": "空港までどのくらいかかりますか？",
-    "modelAnswers": ["How long does it take to get to the airport?", "How far is it to the airport?"],
-    "category": "travel",
-    "level": "beginner",
-    "grammarPoint": "所要時間の表現",
-    "scene": "移動"
-  },
-  {
-    "id": "travel-004",
-    "promptJapanese": "この近くにレストランはありますか？",
-    "modelAnswers": ["Is there a restaurant near here?", "Are there any restaurants around here?"],
-    "category": "travel",
-    "level": "beginner",
-    "grammarPoint": "There is/are の疑問文",
-    "scene": "道案内"
-  },
-  {
-    "id": "travel-005",
-    "promptJapanese": "窓側の席をお願いできますか？",
-    "modelAnswers": ["Could I have a window seat, please?", "I'd prefer a window seat, if possible."],
-    "category": "travel",
-    "level": "beginner",
-    "grammarPoint": "丁寧な依頼",
-    "scene": "飛行機・レストラン"
-  },
-  {
-    "id": "travel-006",
-    "promptJapanese": "荷物が見当たりません。",
-    "modelAnswers": ["I can't find my luggage.", "My baggage seems to be missing."],
-    "category": "travel",
-    "level": "intermediate",
-    "grammarPoint": "can't の使い方",
-    "scene": "空港トラブル"
-  },
-  {
-    "id": "travel-007",
-    "promptJapanese": "この電車はセントラル駅に停まりますか？",
-    "modelAnswers": ["Does this train stop at Central Station?", "Will this train stop at Central Station?"],
-    "category": "travel",
-    "level": "beginner",
-    "grammarPoint": "Yes/No 疑問文",
-    "scene": "電車・交通"
-  },
-  {
-    "id": "self-introduction-001",
-    "promptJapanese": "私はエンジニアとして働いています。",
-    "modelAnswers": ["I work as an engineer.", "I'm an engineer."],
-    "category": "self-introduction",
-    "level": "beginner",
-    "grammarPoint": "職業の言い方",
-    "scene": "自己紹介"
-  },
-  {
-    "id": "self-introduction-002",
-    "promptJapanese": "趣味は写真を撮ることです。",
-    "modelAnswers": ["My hobby is taking photos.", "I enjoy photography."],
-    "category": "self-introduction",
-    "level": "beginner",
-    "grammarPoint": "動名詞",
-    "scene": "自己紹介"
-  },
-  {
-    "id": "self-introduction-003",
-    "promptJapanese": "大学では経済学を専攻していました。",
-    "modelAnswers": ["I majored in economics at university.", "My major was economics in college."],
-    "category": "self-introduction",
-    "level": "beginner",
-    "grammarPoint": "過去形・専攻の言い方",
-    "scene": "自己紹介"
-  },
-  {
-    "id": "self-introduction-004",
-    "promptJapanese": "英語をもっと上達させたいと思っています。",
-    "modelAnswers": ["I want to improve my English.", "I'm hoping to get better at English."],
-    "category": "self-introduction",
-    "level": "beginner",
-    "grammarPoint": "want to / hope to",
-    "scene": "自己紹介"
-  },
-  {
-    "id": "self-introduction-005",
-    "promptJapanese": "週に2回、ジムに通っています。",
-    "modelAnswers": ["I go to the gym twice a week.", "I work out at the gym two times a week."],
-    "category": "self-introduction",
-    "level": "beginner",
-    "grammarPoint": "頻度の表現",
-    "scene": "自己紹介"
-  },
-  {
-    "id": "emotions-001",
-    "promptJapanese": "試験に合格してとても嬉しいです。",
-    "modelAnswers": ["I'm so happy that I passed the exam.", "I'm thrilled to have passed the exam."],
-    "category": "emotions",
-    "level": "beginner",
-    "grammarPoint": "感情表現・that節",
-    "scene": "感情表現"
-  },
-  {
-    "id": "emotions-002",
-    "promptJapanese": "プレゼンの前はいつも緊張します。",
-    "modelAnswers": ["I always get nervous before presentations.", "I'm always nervous before giving a presentation."],
-    "category": "emotions",
-    "level": "beginner",
-    "grammarPoint": "always + 現在形",
-    "scene": "感情表現"
-  },
-  {
-    "id": "emotions-003",
-    "promptJapanese": "彼の冗談には笑わずにはいられませんでした。",
-    "modelAnswers": ["I couldn't help laughing at his joke.", "I couldn't stop laughing at his joke."],
-    "category": "emotions",
-    "level": "intermediate",
-    "grammarPoint": "couldn't help -ing",
-    "scene": "感情表現"
-  },
-  {
-    "id": "emotions-004",
-    "promptJapanese": "その映画を見て感動しました。",
-    "modelAnswers": ["I was moved by the movie.", "The movie really touched my heart."],
-    "category": "emotions",
-    "level": "beginner",
-    "grammarPoint": "受動態・感情の表現",
-    "scene": "感情表現"
-  },
-  {
-    "id": "shopping-001",
-    "promptJapanese": "これはいくらですか？",
-    "modelAnswers": ["How much is this?", "What's the price of this?"],
-    "category": "shopping",
-    "level": "beginner",
-    "grammarPoint": "値段を聞く表現",
-    "scene": "買い物"
-  },
-  {
-    "id": "shopping-002",
-    "promptJapanese": "もう少し安くなりますか？",
-    "modelAnswers": ["Could you give me a discount?", "Is there any way to lower the price?"],
-    "category": "shopping",
-    "level": "beginner",
-    "grammarPoint": "交渉の表現",
-    "scene": "買い物"
-  },
-  {
-    "id": "shopping-003",
-    "promptJapanese": "試着してもいいですか？",
-    "modelAnswers": ["May I try this on?", "Can I try this on, please?"],
-    "category": "shopping",
-    "level": "beginner",
-    "grammarPoint": "許可を求める表現",
-    "scene": "洋服店"
-  },
-  {
-    "id": "shopping-004",
-    "promptJapanese": "別の色はありますか？",
-    "modelAnswers": ["Do you have this in another color?", "Are there other color options available?"],
-    "category": "shopping",
-    "level": "beginner",
-    "grammarPoint": "在庫確認の表現",
-    "scene": "買い物"
-  },
-  {
-    "id": "health-001",
-    "promptJapanese": "頭が痛いです。",
-    "modelAnswers": ["I have a headache.", "My head hurts."],
-    "category": "health",
-    "level": "beginner",
-    "grammarPoint": "体の不調の表現",
-    "scene": "医療・健康"
-  },
-  {
-    "id": "health-002",
-    "promptJapanese": "熱が38度あります。",
-    "modelAnswers": ["I have a fever of 38 degrees.", "My temperature is 38 degrees Celsius."],
-    "category": "health",
-    "level": "beginner",
-    "grammarPoint": "体の状態の説明",
-    "scene": "病院"
-  },
-  {
-    "id": "health-003",
-    "promptJapanese": "この薬は1日3回飲んでください。",
-    "modelAnswers": ["Please take this medicine three times a day.", "Take this medication three times daily."],
-    "category": "health",
-    "level": "beginner",
-    "grammarPoint": "頻度・指示の表現",
-    "scene": "薬局・病院"
-  },
-  {
-    "id": "health-004",
-    "promptJapanese": "最近、よく眠れていません。",
-    "modelAnswers": ["I haven't been sleeping well lately.", "I've been having trouble sleeping recently."],
-    "category": "health",
-    "level": "intermediate",
-    "grammarPoint": "現在完了進行形",
-    "scene": "健康相談"
-  }
+  {"id":"daily-001","promptJapanese":"今日は天気がいいですね。","modelAnswers":["The weather is nice today, isn't it?","It's a beautiful day today."],"category":"daily","level":"beginner","grammarPoint":"付加疑問文","scene":"日常の挨拶"},
+  {"id":"daily-002","promptJapanese":"お腹が空きました。","modelAnswers":["I'm hungry.","I'm starving."],"category":"daily","level":"beginner","grammarPoint":"形容詞の使い方","scene":"日常会話"},
+  {"id":"daily-003","promptJapanese":"この映画はとても面白かったです。","modelAnswers":["This movie was very interesting.","I really enjoyed this movie."],"category":"daily","level":"beginner","grammarPoint":"過去形","scene":"友人との会話"},
+  {"id":"daily-004","promptJapanese":"昨日、友達と公園を散歩しました。","modelAnswers":["I took a walk in the park with my friend yesterday.","Yesterday, I went for a walk in the park with a friend."],"category":"daily","level":"beginner","grammarPoint":"過去形・前置詞","scene":"日常会話"},
+  {"id":"daily-005","promptJapanese":"もう少しゆっくり話してもらえますか？","modelAnswers":["Could you speak a little more slowly, please?","Can you slow down a bit?"],"category":"daily","level":"beginner","grammarPoint":"依頼の表現","scene":"コミュニケーション"},
+  {"id":"daily-006","promptJapanese":"週末は何をする予定ですか？","modelAnswers":["What are you going to do this weekend?","What are your plans for the weekend?"],"category":"daily","level":"beginner","grammarPoint":"未来形 (be going to)","scene":"友人との会話"},
+  {"id":"daily-007","promptJapanese":"彼女はその知らせを聞いて、泣いてしまいました。","modelAnswers":["She burst into tears when she heard the news.","She cried when she heard the news."],"category":"daily","level":"intermediate","grammarPoint":"接続詞 when","scene":"日常会話"},
+  {"id":"daily-008","promptJapanese":"東京に住んで10年になります。","modelAnswers":["I have been living in Tokyo for ten years.","It's been ten years since I moved to Tokyo."],"category":"daily","level":"intermediate","grammarPoint":"現在完了進行形","scene":"自己紹介"},
+  {"id":"business-001","promptJapanese":"会議は3時に始まります。","modelAnswers":["The meeting starts at 3 o'clock.","The meeting is scheduled for 3 PM."],"category":"business","level":"beginner","grammarPoint":"現在形（予定表現）","scene":"職場"},
+  {"id":"business-002","promptJapanese":"資料を送っていただけますか？","modelAnswers":["Could you send me the documents?","Would you be able to send me the materials?"],"category":"business","level":"beginner","grammarPoint":"丁寧な依頼 (Could you...?)","scene":"メール・職場"},
+  {"id":"business-003","promptJapanese":"明日の午後なら空いています。","modelAnswers":["I'm available tomorrow afternoon.","Tomorrow afternoon works for me."],"category":"business","level":"beginner","grammarPoint":"現在形・形容詞","scene":"スケジュール調整"},
+  {"id":"business-004","promptJapanese":"この件についてご検討いただけますか？","modelAnswers":["Could you please consider this matter?","Would you mind looking into this issue?"],"category":"business","level":"intermediate","grammarPoint":"丁寧な依頼・ビジネス表現","scene":"ビジネスメール"},
+  {"id":"business-005","promptJapanese":"締め切りを来週に延ばしてもいいですか？","modelAnswers":["Could we push the deadline back to next week?","Is it possible to extend the deadline to next week?"],"category":"business","level":"intermediate","grammarPoint":"許可を求める表現","scene":"プロジェクト管理"},
+  {"id":"business-006","promptJapanese":"ご不便をおかけして申し訳ありません。","modelAnswers":["I'm sorry for the inconvenience.","We apologize for any inconvenience caused."],"category":"business","level":"intermediate","grammarPoint":"謝罪の表現","scene":"クライアント対応"},
+  {"id":"business-007","promptJapanese":"そのプロジェクトは予算内で完了させる必要があります。","modelAnswers":["We need to complete the project within budget.","The project must be finished within the budget."],"category":"business","level":"intermediate","grammarPoint":"義務・必要性の表現","scene":"プロジェクト管理"},
+  {"id":"business-008","promptJapanese":"先ほどのご説明をもう少し詳しくお聞かせいただけますか？","modelAnswers":["Could you elaborate a bit more on what you just explained?","Would you mind giving us more details on your earlier explanation?"],"category":"business","level":"advanced","grammarPoint":"丁寧な確認の表現","scene":"会議・プレゼン"},
+  {"id":"travel-001","promptJapanese":"駅はどこですか？","modelAnswers":["Where is the station?","Could you tell me where the station is?"],"category":"travel","level":"beginner","grammarPoint":"疑問詞 where","scene":"道案内"},
+  {"id":"travel-002","promptJapanese":"チェックインをお願いします。","modelAnswers":["I'd like to check in, please.","I have a reservation. I'd like to check in."],"category":"travel","level":"beginner","grammarPoint":"丁寧な依頼","scene":"ホテル"},
+  {"id":"travel-003","promptJapanese":"空港までどのくらいかかりますか？","modelAnswers":["How long does it take to get to the airport?","How far is it to the airport?"],"category":"travel","level":"beginner","grammarPoint":"所要時間の表現","scene":"移動"},
+  {"id":"travel-004","promptJapanese":"この近くにレストランはありますか？","modelAnswers":["Is there a restaurant near here?","Are there any restaurants around here?"],"category":"travel","level":"beginner","grammarPoint":"There is/are の疑問文","scene":"道案内"},
+  {"id":"travel-005","promptJapanese":"窓側の席をお願いできますか？","modelAnswers":["Could I have a window seat, please?","I'd prefer a window seat, if possible."],"category":"travel","level":"beginner","grammarPoint":"丁寧な依頼","scene":"飛行機・レストラン"},
+  {"id":"travel-006","promptJapanese":"荷物が見当たりません。","modelAnswers":["I can't find my luggage.","My baggage seems to be missing."],"category":"travel","level":"intermediate","grammarPoint":"can't の使い方","scene":"空港トラブル"},
+  {"id":"travel-007","promptJapanese":"この電車はセントラル駅に停まりますか？","modelAnswers":["Does this train stop at Central Station?","Will this train stop at Central Station?"],"category":"travel","level":"beginner","grammarPoint":"Yes/No 疑問文","scene":"電車・交通"},
+  {"id":"self-introduction-001","promptJapanese":"私はエンジニアとして働いています。","modelAnswers":["I work as an engineer.","I'm an engineer."],"category":"self-introduction","level":"beginner","grammarPoint":"職業の言い方","scene":"自己紹介"},
+  {"id":"self-introduction-002","promptJapanese":"趣味は写真を撮ることです。","modelAnswers":["My hobby is taking photos.","I enjoy photography."],"category":"self-introduction","level":"beginner","grammarPoint":"動名詞","scene":"自己紹介"},
+  {"id":"self-introduction-003","promptJapanese":"大学では経済学を専攻していました。","modelAnswers":["I majored in economics at university.","My major was economics in college."],"category":"self-introduction","level":"beginner","grammarPoint":"過去形・専攻の言い方","scene":"自己紹介"},
+  {"id":"self-introduction-004","promptJapanese":"英語をもっと上達させたいと思っています。","modelAnswers":["I want to improve my English.","I'm hoping to get better at English."],"category":"self-introduction","level":"beginner","grammarPoint":"want to / hope to","scene":"自己紹介"},
+  {"id":"self-introduction-005","promptJapanese":"週に2回、ジムに通っています。","modelAnswers":["I go to the gym twice a week.","I work out at the gym two times a week."],"category":"self-introduction","level":"beginner","grammarPoint":"頻度の表現","scene":"自己紹介"},
+  {"id":"emotions-001","promptJapanese":"試験に合格してとても嬉しいです。","modelAnswers":["I'm so happy that I passed the exam.","I'm thrilled to have passed the exam."],"category":"emotions","level":"beginner","grammarPoint":"感情表現・that節","scene":"感情表現"},
+  {"id":"emotions-002","promptJapanese":"プレゼンの前はいつも緊張します。","modelAnswers":["I always get nervous before presentations.","I'm always nervous before giving a presentation."],"category":"emotions","level":"beginner","grammarPoint":"always + 現在形","scene":"感情表現"},
+  {"id":"emotions-003","promptJapanese":"彼の冗談には笑わずにはいられませんでした。","modelAnswers":["I couldn't help laughing at his joke.","I couldn't stop laughing at his joke."],"category":"emotions","level":"intermediate","grammarPoint":"couldn't help -ing","scene":"感情表現"},
+  {"id":"emotions-004","promptJapanese":"その映画を見て感動しました。","modelAnswers":["I was moved by the movie.","The movie really touched my heart."],"category":"emotions","level":"beginner","grammarPoint":"受動態・感情の表現","scene":"感情表現"},
+  {"id":"shopping-001","promptJapanese":"これはいくらですか？","modelAnswers":["How much is this?","What's the price of this?"],"category":"shopping","level":"beginner","grammarPoint":"値段を聞く表現","scene":"買い物"},
+  {"id":"shopping-002","promptJapanese":"もう少し安くなりますか？","modelAnswers":["Could you give me a discount?","Is there any way to lower the price?"],"category":"shopping","level":"beginner","grammarPoint":"交渉の表現","scene":"買い物"},
+  {"id":"shopping-003","promptJapanese":"試着してもいいですか？","modelAnswers":["May I try this on?","Can I try this on, please?"],"category":"shopping","level":"beginner","grammarPoint":"許可を求める表現","scene":"洋服店"},
+  {"id":"shopping-004","promptJapanese":"別の色はありますか？","modelAnswers":["Do you have this in another color?","Are there other color options available?"],"category":"shopping","level":"beginner","grammarPoint":"在庫確認の表現","scene":"買い物"},
+  {"id":"health-001","promptJapanese":"頭が痛いです。","modelAnswers":["I have a headache.","My head hurts."],"category":"health","level":"beginner","grammarPoint":"体の不調の表現","scene":"医療・健康"},
+  {"id":"health-002","promptJapanese":"熱が38度あります。","modelAnswers":["I have a fever of 38 degrees.","My temperature is 38 degrees Celsius."],"category":"health","level":"beginner","grammarPoint":"体の状態の説明","scene":"病院"},
+  {"id":"health-003","promptJapanese":"この薬は1日3回飲んでください。","modelAnswers":["Please take this medicine three times a day.","Take this medication three times daily."],"category":"health","level":"beginner","grammarPoint":"頻度・指示の表現","scene":"薬局・病院"},
+  {"id":"health-004","promptJapanese":"最近、よく眠れていません。","modelAnswers":["I haven't been sleeping well lately.","I've been having trouble sleeping recently."],"category":"health","level":"intermediate","grammarPoint":"現在完了進行形","scene":"健康相談"},
+
+  {"id":"toeic-meeting-001","promptJapanese":"会議は3時から始まります。","modelAnswers":["The meeting starts at 3 o'clock.","The meeting begins at 3."],"category":"toeic","subCategory":"meeting","level":"beginner","grammarPoint":"現在形で確定した予定を表す","scene":"社内スケジュール調整","keyPhrase":"starts at / begins at","explanation":"確定したスケジュールは will より現在形の方が自然。TOEICでは 'The meeting is scheduled for...' も頻出。","commonMistake":"× 'will start' も正しいが、確定予定は現在形がより自然な英語。","exampleSentence":"The conference call starts at 9 AM sharp."},
+  {"id":"toeic-meeting-002","promptJapanese":"議事録を確認していただけますか？","modelAnswers":["Could you review the meeting minutes?","Would you please check the meeting minutes?"],"category":"toeic","subCategory":"meeting","level":"intermediate","grammarPoint":"Could you...? で丁寧な依頼","scene":"会議後のフォローアップ","keyPhrase":"meeting minutes（議事録）","explanation":"'minutes' は会議の文脈では「議事録」の意味。Could you / Would you の違い：どちらも丁寧だが Would you の方がやや格式高い。","commonMistake":"× 'minute' と単数にしない。議事録は必ず 'minutes'（複数形）。","exampleSentence":"Could you distribute the meeting minutes to all attendees?"},
+  {"id":"toeic-meeting-003","promptJapanese":"この件については後ほど議論しましょう。","modelAnswers":["Let's discuss this matter later.","We'll address this issue later."],"category":"toeic","subCategory":"meeting","level":"beginner","grammarPoint":"Let's + 動詞原形","scene":"会議中の進行","keyPhrase":"Let's discuss / address","explanation":"Let's は提案・勧誘を表す。'discuss' の後に 'about' は不要。","commonMistake":"× 'Let's discuss about this' — discuss の後に about は不要。","exampleSentence":"Let's discuss the budget details at the next meeting."},
+  {"id":"toeic-meeting-004","promptJapanese":"定例会議は毎週月曜日に行われます。","modelAnswers":["The regular meeting is held every Monday.","The weekly meeting takes place every Monday."],"category":"toeic","subCategory":"meeting","level":"intermediate","grammarPoint":"受動態 is held / takes place","scene":"社内スケジュール案内","keyPhrase":"is held / takes place","explanation":"'take place' は主語が人以外のイベントに使う表現。受動態 'is held' も同意。","commonMistake":"× 'is happened' とは言わない。happen は自動詞なので受動態は不可。","exampleSentence":"The quarterly review takes place every three months."},
+  {"id":"toeic-meeting-005","promptJapanese":"ご出席いただけますか？","modelAnswers":["Will you be able to attend?","Are you available to attend the meeting?"],"category":"toeic","subCategory":"meeting","level":"beginner","grammarPoint":"Will you be able to...?","scene":"会議への招待","keyPhrase":"attend（出席する）","explanation":"'attend' は他動詞で目的語を直接取る。'attend to' は「対処する」と別の意味になるので注意。","commonMistake":"× 'attend to the meeting' とは言わない（これは「会議に対処する」になる）。","exampleSentence":"Will you be able to attend the annual conference?"},
+  {"id":"toeic-meeting-006","promptJapanese":"次の議題に移りましょう。","modelAnswers":["Let's move on to the next agenda item.","Shall we move on to the next item?"],"category":"toeic","subCategory":"meeting","level":"intermediate","grammarPoint":"move on to（次に移る）","scene":"会議の進行","keyPhrase":"agenda item（議題）","explanation":"'agenda' は会議の議題リスト全体、'agenda item' は個々の議題。'move on to' は「～に移る」という頻出表現。","commonMistake":"× 'next agenda' だけでは不自然。'next agenda item' または 'next topic' と言う。","exampleSentence":"Let's move on to the next agenda item regarding the budget."},
+  {"id":"toeic-meeting-007","promptJapanese":"本日の会議はオンラインで行います。","modelAnswers":["Today's meeting will be held online.","The meeting today will take place online."],"category":"toeic","subCategory":"meeting","level":"beginner","grammarPoint":"will be held（受動態・未来）","scene":"リモート会議の案内","keyPhrase":"held online / take place online","explanation":"オンライン会議の案内では 'virtually' や 'remotely' も使える。","commonMistake":"× 'will held' は誤り。be動詞と過去分詞を忘れずに（will be held）。","exampleSentence":"The board meeting will be held online via Zoom."},
+
+  {"id":"toeic-reservation-001","promptJapanese":"7時に2名で予約したいのですが。","modelAnswers":["I'd like to make a reservation for two at 7 o'clock.","I'd like to book a table for two at 7 PM."],"category":"toeic","subCategory":"reservation","level":"beginner","grammarPoint":"I'd like to...（丁寧な希望）","scene":"レストラン予約","keyPhrase":"make a reservation / book a table","explanation":"'reservation' はフォーマル、'booking' はやや口語的。for two は「2名で」。","commonMistake":"× 'reserve for two persons' より 'for two' の方が自然。","exampleSentence":"I'd like to make a reservation for four at 8 PM."},
+  {"id":"toeic-reservation-002","promptJapanese":"予約を変更できますか？","modelAnswers":["Can I change my reservation?","Is it possible to modify my reservation?"],"category":"toeic","subCategory":"reservation","level":"beginner","grammarPoint":"Can I...?（許可・可能性）","scene":"予約変更","keyPhrase":"change / modify a reservation","explanation":"'modify' はよりフォーマルな表現。ホテルや航空券では 'amend' も使われる。","commonMistake":"× 'change the reservation' でも通じるが 'my reservation' と所有格を使う方が自然。","exampleSentence":"I'd like to modify my hotel reservation for next Tuesday."},
+  {"id":"toeic-reservation-003","promptJapanese":"予約を確認したいのですが。","modelAnswers":["I'd like to confirm my reservation.","I'm calling to confirm my booking."],"category":"toeic","subCategory":"reservation","level":"beginner","grammarPoint":"I'd like to confirm...","scene":"予約確認の電話","keyPhrase":"confirm a reservation","explanation":"電話で予約確認する際の典型表現。'I'm calling to...' は電話の目的を最初に伝える定型句。","commonMistake":"× 'confirm about my reservation' — confirm の後に about は不要。","exampleSentence":"I'm calling to confirm my reservation for this Friday."},
+  {"id":"toeic-reservation-004","promptJapanese":"予約をキャンセルしたいのですが。","modelAnswers":["I'd like to cancel my reservation.","I need to cancel my booking."],"category":"toeic","subCategory":"reservation","level":"beginner","grammarPoint":"I'd like to cancel...","scene":"予約キャンセル","keyPhrase":"cancel a reservation","explanation":"キャンセル時は理由を添えると丁寧。'Unfortunately, I need to cancel...' という前置きも頻出。","commonMistake":"× 'I want to cancel' は正しいが、フォーマルな場面では 'I'd like to' の方が適切。","exampleSentence":"I'm afraid I need to cancel my reservation due to a scheduling conflict."},
+  {"id":"toeic-reservation-005","promptJapanese":"何名様でご利用ですか？","modelAnswers":["How many people will be in your party?","How many guests will there be?"],"category":"toeic","subCategory":"reservation","level":"beginner","grammarPoint":"How many...?","scene":"ホテル・レストランのチェックイン","keyPhrase":"party（一行、グループ）","explanation":"'party' はここでは「パーティー」ではなく「グループ・一行」の意味。TOEICで頻出。","commonMistake":"× 'How many persons?' より 'How many people?' または 'How many guests?' が自然。","exampleSentence":"How many people will be in your party this evening?"},
+  {"id":"toeic-reservation-006","promptJapanese":"ご希望のお日にちはいつですか？","modelAnswers":["What date do you prefer?","What is your preferred date?"],"category":"toeic","subCategory":"reservation","level":"beginner","grammarPoint":"preferred date（希望日）","scene":"予約受付","keyPhrase":"preferred date / What date do you prefer?","explanation":"'preferred' は「希望の・好みの」という意味の形容詞。フォーマルな接客英語で頻出。","commonMistake":"× 'What date you prefer?' — 疑問文なので do が必要 (What date do you prefer?)。","exampleSentence":"What is your preferred date for the appointment?"},
+
+  {"id":"toeic-delivery-001","promptJapanese":"納期はいつですか？","modelAnswers":["When is the delivery deadline?","What is the expected delivery date?"],"category":"toeic","subCategory":"delivery","level":"beginner","grammarPoint":"When is...? / What is...?","scene":"発注・納品確認","keyPhrase":"delivery deadline / delivery date","explanation":"'deadline' は締め切り、'delivery date' は配達予定日。TOEICのPart 7で頻出の語句。","commonMistake":"× '納期' を直訳して '納 deadline' とは言わない。'delivery deadline' が自然。","exampleSentence":"Could you confirm the delivery deadline for this order?"},
+  {"id":"toeic-delivery-002","promptJapanese":"注文は来週末までに届きますか？","modelAnswers":["Will the order arrive by the end of next week?","Can the order be delivered by next weekend?"],"category":"toeic","subCategory":"delivery","level":"intermediate","grammarPoint":"by（期限）の使い方","scene":"納品スケジュール確認","keyPhrase":"arrive by / delivered by","explanation":"'by' は期限を表す前置詞（〜までに）。'until' は継続を表すので期限には by を使う。","commonMistake":"× 'arrive until the end of next week' — 期限は by、継続は until。","exampleSentence":"Will the shipment arrive by the end of this month?"},
+  {"id":"toeic-delivery-003","promptJapanese":"納期を延ばしていただけますか？","modelAnswers":["Could you extend the delivery deadline?","Is it possible to push back the delivery date?"],"category":"toeic","subCategory":"delivery","level":"intermediate","grammarPoint":"extend / push back（延長する）","scene":"納期交渉","keyPhrase":"extend the deadline / push back","explanation":"'push back' はインフォーマルだが実務でよく使う。'extend' はフォーマル。","commonMistake":"× 'delay the deadline' は「締め切りを遅らせる」という意味で通じるが、自然な表現は 'extend'。","exampleSentence":"Could we push back the deadline by one week?"},
+  {"id":"toeic-delivery-004","promptJapanese":"商品は予定通りに発送されました。","modelAnswers":["The goods were shipped as scheduled.","The items were dispatched on schedule."],"category":"toeic","subCategory":"delivery","level":"intermediate","grammarPoint":"受動態の過去形 were shipped","scene":"出荷報告","keyPhrase":"as scheduled / on schedule","explanation":"'as scheduled' と 'on schedule' はほぼ同じ意味。shipped / dispatched / sent out どれも使える。","commonMistake":"× 'The goods shipped' — 物が自分で発送することはないので受動態が必要。","exampleSentence":"Your order was shipped as scheduled and will arrive by Friday."},
+  {"id":"toeic-delivery-005","promptJapanese":"遅延が発生する可能性があります。","modelAnswers":["There may be a delay.","There is a possibility of a delay."],"category":"toeic","subCategory":"delivery","level":"intermediate","grammarPoint":"There may be...（可能性の表現）","scene":"遅延連絡","keyPhrase":"delay（遅延）","explanation":"'may' は可能性（～かもしれない）。'might' はやや低い可能性。両方頻出。","commonMistake":"× 'There will be a delay' は確定表現なので、可能性がある場合は may/might を使う。","exampleSentence":"Due to bad weather, there may be a delay in delivery."},
+  {"id":"toeic-delivery-006","promptJapanese":"送料は含まれていますか？","modelAnswers":["Is shipping included in the price?","Does the price include shipping costs?"],"category":"toeic","subCategory":"delivery","level":"beginner","grammarPoint":"Is ... included?（含まれているか）","scene":"価格確認","keyPhrase":"shipping cost / included in the price","explanation":"'shipping' は「送料」、'handling' は「梱包手数料」。合わせて 'shipping and handling' とも言う。","commonMistake":"× 'Is the shipping included?' も通じるが 'Is shipping included?' の方が自然。","exampleSentence":"Is international shipping included in the total cost?"},
+
+  {"id":"toeic-office-001","promptJapanese":"コピー機が故障しています。","modelAnswers":["The copier is out of order.","The printer is broken."],"category":"toeic","subCategory":"office","level":"beginner","grammarPoint":"out of order（故障中）","scene":"オフィスのトラブル","keyPhrase":"out of order（故障中）","explanation":"'out of order' は機器の故障を表す定型表現。TOEIC Part 1の写真問題でも頻出。","commonMistake":"× 'The copier is broken order' という言い方は存在しない。","exampleSentence":"I'm sorry, but the elevator is out of order today."},
+  {"id":"toeic-office-002","promptJapanese":"会議室を予約してもらえますか？","modelAnswers":["Could you book the conference room?","Could you reserve the meeting room for us?"],"category":"toeic","subCategory":"office","level":"beginner","grammarPoint":"Could you...?（依頼）","scene":"会議室の手配","keyPhrase":"book / reserve（予約する）","explanation":"'conference room' と 'meeting room' は同じ意味。'book' はカジュアル、'reserve' はフォーマル。","commonMistake":"× 'Can you reserve' でも通じるが、依頼には Could you の方が丁寧。","exampleSentence":"Could you book the large conference room for 3 PM tomorrow?"},
+  {"id":"toeic-office-003","promptJapanese":"このフォームに記入してください。","modelAnswers":["Please fill out this form.","Please complete this form."],"category":"toeic","subCategory":"office","level":"beginner","grammarPoint":"fill out / complete（記入する）","scene":"書類手続き","keyPhrase":"fill out a form（フォームに記入する）","explanation":"'fill out' と 'fill in' はほぼ同義。米英で使い方が若干異なる。","commonMistake":"× 'fill in this form' も正しいが、米国では 'fill out' が一般的。","exampleSentence":"Please fill out the registration form before the event."},
+  {"id":"toeic-office-004","promptJapanese":"書類を提出する期限はいつですか？","modelAnswers":["What is the deadline for submitting the documents?","When is the document submission deadline?"],"category":"toeic","subCategory":"office","level":"intermediate","grammarPoint":"deadline for -ing（〜の期限）","scene":"書類提出","keyPhrase":"submission deadline（提出期限）","explanation":"'submission' は 'submit'（提出する）の名詞形。deadline for + 動名詞の構造が重要。","commonMistake":"× 'deadline to submit' も正しいが、'for submitting' の方がフォーマルな書き言葉では自然。","exampleSentence":"What is the deadline for submitting the expense reports?"},
+  {"id":"toeic-office-005","promptJapanese":"上司に確認します。","modelAnswers":["I'll check with my supervisor.","Let me confirm with my manager."],"category":"toeic","subCategory":"office","level":"beginner","grammarPoint":"check with（〜に確認する）","scene":"社内コミュニケーション","keyPhrase":"check with / confirm with","explanation":"'check with someone' は「〜に確認する」という頻出表現。supervisor（直属の上司）とmanager（管理職）は似ているが使い分けに注意。","commonMistake":"× 'I'll check to my boss' — with を使って 'check with my boss' が正しい。","exampleSentence":"I'll need to check with my supervisor before I can confirm."},
+  {"id":"toeic-office-006","promptJapanese":"明日は在宅勤務の予定です。","modelAnswers":["I'm planning to work from home tomorrow.","I'll be working remotely tomorrow."],"category":"toeic","subCategory":"office","level":"intermediate","grammarPoint":"work from home / work remotely","scene":"リモートワーク","keyPhrase":"work from home / remotely","explanation":"'WFH'（Work From Home）はビジネスの略語として頻用。'remotely' も同義。","commonMistake":"× 'work at home' も意味は通じるが、'work from home' が標準的な表現。","exampleSentence":"Our team will be working from home until further notice."},
+  {"id":"toeic-office-007","promptJapanese":"資料を印刷してもらえますか？","modelAnswers":["Could you print the materials for me?","Would you mind printing out the handouts?"],"category":"toeic","subCategory":"office","level":"beginner","grammarPoint":"Would you mind -ing?（丁寧な依頼）","scene":"会議準備","keyPhrase":"handouts（配布資料）","explanation":"'handout' は会議や授業で配る資料。'materials' はより広い意味での資料。","commonMistake":"× 'Would you mind to print' — mind の後は動名詞（-ing形）。","exampleSentence":"Would you mind printing 20 copies of the handouts?"},
+
+  {"id":"toeic-transport-001","promptJapanese":"空港まで何分かかりますか？","modelAnswers":["How long does it take to get to the airport?","How many minutes does it take to the airport?"],"category":"toeic","subCategory":"transport","level":"beginner","grammarPoint":"How long does it take to...?","scene":"移動時間の確認","keyPhrase":"How long does it take to...?","explanation":"所要時間を聞く最重要表現。It takes + 時間 + to do で「〜するのに〜かかる」。","commonMistake":"× 'How long it takes?' — 疑問文なので does の倒置が必要。","exampleSentence":"How long does it take to get to the downtown area from here?"},
+  {"id":"toeic-transport-002","promptJapanese":"次の電車は何時ですか？","modelAnswers":["What time is the next train?","When is the next train?"],"category":"toeic","subCategory":"transport","level":"beginner","grammarPoint":"What time is...?","scene":"駅・交通機関","keyPhrase":"What time is the next...?","explanation":"交通機関の時刻を聞く定型表現。'When does the next train depart?' も同義。","commonMistake":"× 'What time the next train is?' — 疑問文は助動詞・be動詞を前に出す。","exampleSentence":"Excuse me, what time is the next bus to the city center?"},
+  {"id":"toeic-transport-003","promptJapanese":"タクシーを呼んでいただけますか？","modelAnswers":["Could you call a taxi for me?","Could you hail a cab?"],"category":"toeic","subCategory":"transport","level":"beginner","grammarPoint":"Could you call...?（依頼）","scene":"ホテル・移動","keyPhrase":"call a taxi / hail a cab","explanation":"'hail' は手を上げてタクシーを止めること。米国では 'cab'、英国では 'taxi' が一般的。","commonMistake":"× 'call taxi' — 冠詞 a が必要 (call a taxi)。","exampleSentence":"Could you call a taxi for me? I need to get to the airport by 6."},
+  {"id":"toeic-transport-004","promptJapanese":"乗り換えは必要ですか？","modelAnswers":["Do I need to transfer?","Will I need to change trains?"],"category":"toeic","subCategory":"transport","level":"beginner","grammarPoint":"Do I need to...?","scene":"電車・交通案内","keyPhrase":"transfer / change trains","explanation":"電車の乗り換えは 'transfer' または 'change trains'。バスは 'change buses'。","commonMistake":"× 'Do I need to transit?' — transit は不可算名詞として使われることが多く、乗り換えには transfer/change が自然。","exampleSentence":"Do I need to transfer to get to the airport?"},
+  {"id":"toeic-transport-005","promptJapanese":"この電車は終点まで行きますか？","modelAnswers":["Does this train go all the way to the last stop?","Does this train go to the final destination?"],"category":"toeic","subCategory":"transport","level":"beginner","grammarPoint":"go all the way to（〜まで行く）","scene":"路線確認","keyPhrase":"terminal station / final stop","explanation":"'all the way to' は強調表現で「ずっと〜まで」。乗り換えなしで行けるかを確認する際に使う。","commonMistake":"× 'Does this train go until the last stop?' — 場所に until は不自然。to を使う。","exampleSentence":"Does this bus go all the way to the central station?"},
+
+  {"id":"toeic-email-001","promptJapanese":"ご連絡いただきありがとうございます。","modelAnswers":["Thank you for contacting us.","Thank you for reaching out."],"category":"toeic","subCategory":"email","level":"beginner","grammarPoint":"Thank you for -ing（〜してくれてありがとう）","scene":"ビジネスメール書き出し","keyPhrase":"Thank you for reaching out（連絡してくれてありがとう）","explanation":"メールの冒頭定型句。'reaching out' はビジネスメールで非常に頻出。","commonMistake":"× 'Thank you for your contact' — contact を名詞で使うと不自然。Thank you for contacting us が正しい。","exampleSentence":"Thank you for reaching out to our customer service team."},
+  {"id":"toeic-email-002","promptJapanese":"添付ファイルをご確認ください。","modelAnswers":["Please see the attached file.","Please find the attachment below."],"category":"toeic","subCategory":"email","level":"beginner","grammarPoint":"Please find / Please see（確認してください）","scene":"ビジネスメール","keyPhrase":"attached file / attachment","explanation":"'Please find attached...' は最もフォーマルな表現。TOEICのPart 7に頻出。","commonMistake":"× 'Please check the attachment file' — 'attached file' または 'attachment'（attachment fileとは言わない）。","exampleSentence":"Please find the report attached to this email."},
+  {"id":"toeic-email-003","promptJapanese":"ご返信いただければ幸いです。","modelAnswers":["I would appreciate your reply.","I look forward to hearing from you."],"category":"toeic","subCategory":"email","level":"intermediate","grammarPoint":"I look forward to -ing（〜を楽しみにしています）","scene":"ビジネスメール結び","keyPhrase":"I look forward to hearing from you.","explanation":"メールの結びの定型句。'I'm looking forward to...' は口語、'I look forward to...' はより格式高い書き言葉。","commonMistake":"× 'I look forward to hear from you' — to の後は動名詞（hearing）。","exampleSentence":"I look forward to hearing from you at your earliest convenience."},
+  {"id":"toeic-email-004","promptJapanese":"詳細については後日ご連絡いたします。","modelAnswers":["I will get back to you with the details.","I will follow up with more information."],"category":"toeic","subCategory":"email","level":"intermediate","grammarPoint":"get back to you（後で連絡する）","scene":"ビジネスメール","keyPhrase":"get back to you / follow up","explanation":"'get back to you' はビジネス英語で最頻出の表現のひとつ。'follow up' は追ってフォローする意。","commonMistake":"× 'I will contact to you' — contact は他動詞なので to は不要。","exampleSentence":"I'll get back to you with the pricing details by end of day."},
+  {"id":"toeic-email-005","promptJapanese":"ご不明な点がございましたらお知らせください。","modelAnswers":["Please let me know if you have any questions.","Feel free to contact me if you need any clarification."],"category":"toeic","subCategory":"email","level":"beginner","grammarPoint":"Please let me know if...","scene":"ビジネスメール","keyPhrase":"Please let me know if you have any questions.","explanation":"メールの締め括りに最もよく使われる表現。'clarification' は「説明・明確化」。","commonMistake":"× 'Please tell me if you have questions' でも通じるが、フォーマルなメールでは 'let me know' が自然。","exampleSentence":"Please don't hesitate to contact me if you have any questions."},
+  {"id":"toeic-email-006","promptJapanese":"以下の通りご確認をお願いします。","modelAnswers":["Please confirm the following.","Kindly review the information below."],"category":"toeic","subCategory":"email","level":"intermediate","grammarPoint":"Please confirm / Kindly（丁寧な命令）","scene":"確認依頼メール","keyPhrase":"Please confirm / Kindly review","explanation":"'Kindly' は Please よりやや格式高い。アジア系ビジネス英語で特によく使われる。","commonMistake":"× 'Please check below' でも意味は通じるが、'Please confirm the following' がよりフォーマル。","exampleSentence":"Kindly review the contract and confirm your acceptance."},
+
+  {"id":"toeic-hiring-001","promptJapanese":"応募書類を送っていただけますか？","modelAnswers":["Could you send us your application documents?","Please submit your application materials."],"category":"toeic","subCategory":"hiring","level":"intermediate","grammarPoint":"application documents（応募書類）","scene":"採用プロセス","keyPhrase":"application documents / resume / CV","explanation":"米国では 'resume'（1〜2ページの履歴書）、英国では 'CV'（より詳細）が一般的。","commonMistake":"× 'entry sheet' は和製英語。英語では 'application form' または 'job application'。","exampleSentence":"Please send us your resume and cover letter by the end of the week."},
+  {"id":"toeic-hiring-002","promptJapanese":"面接の日程を調整したいのですが。","modelAnswers":["I'd like to schedule an interview.","I'm writing to arrange an interview time."],"category":"toeic","subCategory":"hiring","level":"intermediate","grammarPoint":"schedule / arrange（日程を組む）","scene":"採用面接の調整","keyPhrase":"schedule an interview","explanation":"'schedule' と 'arrange' はどちらも「手配・予定する」の意。メールでは 'I'm writing to...' で書き出すのが定石。","commonMistake":"× 'I want to decide the interview date' — schedule/arrange が自然な表現。","exampleSentence":"I'd like to schedule a phone interview at your earliest convenience."},
+  {"id":"toeic-hiring-003","promptJapanese":"貴社に応募したいと思っています。","modelAnswers":["I would like to apply for a position at your company.","I am interested in applying for the open position."],"category":"toeic","subCategory":"hiring","level":"intermediate","grammarPoint":"apply for a position（職に応募する）","scene":"カバーレター・応募","keyPhrase":"apply for a position / open position","explanation":"'open position' は「空きポジション」。'vacancy' も同義のフォーマル語。","commonMistake":"× 'I want to apply to your company' — 職への応募は apply for（職）at（会社）。","exampleSentence":"I would like to apply for the marketing manager position advertised on your website."},
+  {"id":"toeic-hiring-004","promptJapanese":"この職種の経験はどのくらいありますか？","modelAnswers":["How much experience do you have in this field?","How long have you been working in this industry?"],"category":"toeic","subCategory":"hiring","level":"intermediate","grammarPoint":"How much experience...? / How long have you...?","scene":"採用面接","keyPhrase":"experience in this field（この分野の経験）","explanation":"面接の定番質問。'field' は「分野」、'industry' は「業界」とやや異なる。","commonMistake":"× 'How many experience' — experience は不可算名詞なので How much を使う。","exampleSentence":"How much experience do you have in project management?"},
+  {"id":"toeic-hiring-005","promptJapanese":"採用が決まりましたらご連絡します。","modelAnswers":["We will contact you if you are selected.","You will hear from us if your application is successful."],"category":"toeic","subCategory":"hiring","level":"intermediate","grammarPoint":"if 節（条件）+ 受動態","scene":"採用結果の通知","keyPhrase":"if you are selected / if successful","explanation":"'You will hear from us' は「こちらからご連絡します」の意。採用連絡の定型表現。","commonMistake":"× 'We will contact to you' — contact は他動詞で to は不要。","exampleSentence":"Successful candidates will be contacted within two weeks."},
+  {"id":"toeic-hiring-006","promptJapanese":"給与の詳細を教えていただけますか？","modelAnswers":["Could you tell me about the salary details?","Could you provide information on the compensation package?"],"category":"toeic","subCategory":"hiring","level":"intermediate","grammarPoint":"compensation package（給与・待遇パッケージ）","scene":"採用条件の確認","keyPhrase":"salary / compensation package","explanation":"'compensation package' は給与・ボーナス・福利厚生を含む待遇全体。フォーマルな表現。","commonMistake":"× 'treatment' を「待遇」と直訳しない。英語では 'benefits' または 'compensation'。","exampleSentence":"Could you tell me more about the compensation package and benefits?"},
+
+  {"id":"toeic-invoice-001","promptJapanese":"請求書を送っていただけますか？","modelAnswers":["Could you send me the invoice?","Please provide an invoice for the services."],"category":"toeic","subCategory":"invoice","level":"beginner","grammarPoint":"invoice（請求書）","scene":"支払い処理","keyPhrase":"invoice（請求書）","explanation":"'invoice' は商取引の請求書。'bill' は一般的な勘定書き（レストランなど）。両方TOEICで頻出。","commonMistake":"× 'send me the bill' も通じるが、ビジネス取引では 'invoice' が正式。","exampleSentence":"Please email the invoice to our accounts payable department."},
+  {"id":"toeic-invoice-002","promptJapanese":"支払い期限はいつですか？","modelAnswers":["When is the payment due?","What is the due date for payment?"],"category":"toeic","subCategory":"invoice","level":"beginner","grammarPoint":"due date / payment due（支払い期限）","scene":"請求書確認","keyPhrase":"payment due / due date","explanation":"'due' は「期限の」という形容詞。'due date' はTOEICのメールや文書で最頻出語の一つ。","commonMistake":"× 'When is the deadline of payment?' — due date の方が自然で頻出。","exampleSentence":"The payment is due within 30 days of the invoice date."},
+  {"id":"toeic-invoice-003","promptJapanese":"この金額は正しいですか？","modelAnswers":["Is this amount correct?","Could you verify this amount?"],"category":"toeic","subCategory":"invoice","level":"beginner","grammarPoint":"Is this...correct? / verify","scene":"請求確認","keyPhrase":"amount（金額）/ verify（確認する）","explanation":"'verify' は「正確さを確認する」フォーマル語。'double-check' は「念のため再確認する」。","commonMistake":"× 'Is this price right?' でも通じるが、請求書文脈では 'amount' と 'correct' が適切。","exampleSentence":"Could you verify the total amount on this invoice?"},
+  {"id":"toeic-invoice-004","promptJapanese":"請求書番号を教えていただけますか？","modelAnswers":["Could you tell me the invoice number?","What is the invoice number for this order?"],"category":"toeic","subCategory":"invoice","level":"beginner","grammarPoint":"invoice number（請求書番号）","scene":"問い合わせ対応","keyPhrase":"invoice number / reference number","explanation":"問い合わせ時に必要な参照番号。'reference number' も同様によく使われる。","commonMistake":"× 'invoice no.' は略語として書類上では使うが、口頭・メールでは 'invoice number' が自然。","exampleSentence":"Please quote the invoice number in all correspondence."},
+  {"id":"toeic-invoice-005","promptJapanese":"銀行振込でお支払いできますか？","modelAnswers":["Can I pay by bank transfer?","Is bank transfer an accepted payment method?"],"category":"toeic","subCategory":"invoice","level":"beginner","grammarPoint":"pay by（〜で支払う）","scene":"支払い方法の確認","keyPhrase":"bank transfer / wire transfer","explanation":"'bank transfer' と 'wire transfer' はほぼ同義。米国では 'wire transfer' が一般的。","commonMistake":"× 'pay with bank transfer' — 支払い手段には pay by を使う。","exampleSentence":"We accept payment by bank transfer, credit card, or check."},
+  {"id":"toeic-invoice-006","promptJapanese":"領収書を発行していただけますか？","modelAnswers":["Could you issue a receipt?","Could you provide a receipt for this payment?"],"category":"toeic","subCategory":"invoice","level":"beginner","grammarPoint":"issue a receipt（領収書を発行する）","scene":"経費精算","keyPhrase":"receipt（領収書）/ issue（発行する）","explanation":"'receipt' は支払い証明書。'invoice' は請求書、'receipt' は領収書と区別する。","commonMistake":"× 'receipt' と 'recipe' を混同しない。receipt（領収書）はレシートのこと。","exampleSentence":"Could you issue an itemized receipt for my expense report?"},
+
+  {"id":"toeic-product-001","promptJapanese":"この商品の保証期間はどのくらいですか？","modelAnswers":["What is the warranty period for this product?","How long is the warranty on this item?"],"category":"toeic","subCategory":"product","level":"intermediate","grammarPoint":"warranty period（保証期間）","scene":"製品問い合わせ","keyPhrase":"warranty（保証）/ guarantee（保証）","explanation":"'warranty' は製品保証、'guarantee' はより広い保証。TOEICのPart 7でよく登場する。","commonMistake":"× 'guarantee period' も通じるが、製品の保証には 'warranty' が業界標準語。","exampleSentence":"The warranty period for this laptop is two years from the date of purchase."},
+  {"id":"toeic-product-002","promptJapanese":"在庫はありますか？","modelAnswers":["Is this item in stock?","Do you have this in stock?"],"category":"toeic","subCategory":"product","level":"beginner","grammarPoint":"in stock（在庫あり）","scene":"購入・在庫確認","keyPhrase":"in stock / out of stock","explanation":"'out of stock' は在庫切れ。'back-ordered' は「入荷待ち」。全てTOEICで頻出。","commonMistake":"× 'Do you have stock?' — 「在庫確認」は in stock の表現が自然。","exampleSentence":"I'm afraid this model is currently out of stock."},
+  {"id":"toeic-product-003","promptJapanese":"返品は可能ですか？","modelAnswers":["Is it possible to return this item?","Can I return this product?"],"category":"toeic","subCategory":"product","level":"beginner","grammarPoint":"Is it possible to...? / return policy","scene":"返品・交換","keyPhrase":"return policy（返品ポリシー）","explanation":"'return policy' は返品規定。'refund' は返金、'exchange' は交換。","commonMistake":"× 'Can I send back this item?' でも通じるが、'return' が標準的な表現。","exampleSentence":"What is your return policy for online purchases?"},
+  {"id":"toeic-product-004","promptJapanese":"別のサイズはありますか？","modelAnswers":["Do you have this in a different size?","Is this available in other sizes?"],"category":"toeic","subCategory":"product","level":"beginner","grammarPoint":"Do you have this in...?","scene":"ショッピング・商品選択","keyPhrase":"available in（〜で入手可能）","explanation":"'Do you have this in + 色/サイズ' は買い物の定番表現。'available in' も同様に使える。","commonMistake":"× 'Do you have other size?' — サイズ・色などはこの構文で a different / other を使う。","exampleSentence":"Do you have this jacket available in a larger size?"},
+  {"id":"toeic-product-005","promptJapanese":"この商品の主な特徴を教えていただけますか？","modelAnswers":["Could you tell me about the main features of this product?","What are the key features of this item?"],"category":"toeic","subCategory":"product","level":"intermediate","grammarPoint":"features（特徴・機能）","scene":"製品説明","keyPhrase":"key features / main features","explanation":"'feature' はデジタル製品や機器の「機能・特徴」。'specification' は詳細なスペック。","commonMistake":"× 'characteristics' も使えるが、製品の機能説明では 'features' が最も一般的。","exampleSentence":"Let me walk you through the key features of our new software."},
+  {"id":"toeic-product-006","promptJapanese":"割引はありますか？","modelAnswers":["Is there any discount available?","Do you offer any discounts?"],"category":"toeic","subCategory":"product","level":"beginner","grammarPoint":"discount（割引）/ Is there any...?","scene":"価格交渉","keyPhrase":"discount / special offer","explanation":"'bulk discount' は大量購入割引。'seasonal discount' は季節割引。TOEICの広告問題で頻出。","commonMistake":"× 'Is there discount?' — 不可算名詞的用法でも any を使って 'any discount' の方が自然。","exampleSentence":"Do you offer any discounts for bulk orders?"},
+
+  {"id":"toeic-announcement-001","promptJapanese":"本日は休業日となっております。","modelAnswers":["We are closed today.","Our office is closed today."],"category":"toeic","subCategory":"announcement","level":"beginner","grammarPoint":"We are closed.（休業中）","scene":"休業案内","keyPhrase":"closed for the day / business hours","explanation":"'closed' は閉店・休業状態。'We are not available today.' も同義。TOEIC Part 2の短文問題で頻出。","commonMistake":"× 'We are holiday today' — closed を使って 'We are closed for the holiday' が正しい。","exampleSentence":"Please note that we will be closed on all national holidays."},
+  {"id":"toeic-announcement-002","promptJapanese":"営業時間は9時から18時までです。","modelAnswers":["Our business hours are from 9 AM to 6 PM.","We are open from 9 in the morning until 6 in the evening."],"category":"toeic","subCategory":"announcement","level":"beginner","grammarPoint":"business hours（営業時間）","scene":"営業時間案内","keyPhrase":"business hours / opening hours","explanation":"'business hours' は会社・店舗の営業時間。英国では 'opening hours' が一般的。","commonMistake":"× 'service time' は和製英語的。'business hours' または 'operating hours' が正しい。","exampleSentence":"Our customer service is available during regular business hours."},
+  {"id":"toeic-announcement-003","promptJapanese":"システムメンテナンスのためサービスを一時停止します。","modelAnswers":["We will temporarily suspend our service for system maintenance.","Our service will be unavailable due to scheduled maintenance."],"category":"toeic","subCategory":"announcement","level":"intermediate","grammarPoint":"due to（〜のため）/ scheduled maintenance","scene":"メンテナンス告知","keyPhrase":"scheduled maintenance（定期メンテナンス）","explanation":"'due to' は理由を表す前置詞句。'because of' と同義だが書き言葉・フォーマルな文でよく使われる。","commonMistake":"× 'due to we are doing maintenance' — due to の後は名詞句。","exampleSentence":"The website will be unavailable from 2 to 4 AM due to scheduled maintenance."},
+  {"id":"toeic-announcement-004","promptJapanese":"新しいサービスを開始いたします。","modelAnswers":["We are launching a new service.","We are pleased to announce the launch of our new service."],"category":"toeic","subCategory":"announcement","level":"intermediate","grammarPoint":"launch（立ち上げる）/ We are pleased to announce","scene":"新サービス告知","keyPhrase":"launch（発表・開始）/ We are pleased to announce","explanation":"'We are pleased to announce' はフォーマルな告知の定型句。'launch' は製品・サービスの開始に使う。","commonMistake":"× 'We will start new service' — launch を使い 'a new service' と冠詞を忘れない。","exampleSentence":"We are pleased to announce the launch of our premium membership plan."},
+  {"id":"toeic-announcement-005","promptJapanese":"詳細はウェブサイトをご確認ください。","modelAnswers":["Please visit our website for more details.","For further information, please refer to our website."],"category":"toeic","subCategory":"announcement","level":"beginner","grammarPoint":"for more details / for further information","scene":"情報案内","keyPhrase":"for more details / refer to","explanation":"案内文の締め括りに使う定型表現。'refer to' は「〜を参照する」。","commonMistake":"× 'Please see our website' でも通じるが、'visit our website' または 'refer to our website' が自然。","exampleSentence":"For more details on the event, please visit our official website."},
+  {"id":"toeic-announcement-006","promptJapanese":"ご不便をおかけして誠に申し訳ございません。","modelAnswers":["We sincerely apologize for any inconvenience.","We are sorry for any inconvenience this may cause."],"category":"toeic","subCategory":"announcement","level":"intermediate","grammarPoint":"We sincerely apologize for...","scene":"お詫び告知","keyPhrase":"We sincerely apologize / inconvenience（不便）","explanation":"'inconvenience' は「不便・迷惑」。'We apologize for...' はビジネス文書の謝罪定型句。","commonMistake":"× 'We are very sorry for inconvenience' — any をつけて 'any inconvenience' が自然。","exampleSentence":"We sincerely apologize for any inconvenience caused by this service interruption."}
 ]
